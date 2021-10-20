@@ -1,0 +1,305 @@
+@media (max-width: 576px) {
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  body {
+    height: auto;
+    font-family: 'Nova Square', cursive;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    /*  10% opaque green */ }
+  /* line 12, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4e4a3e; }
+    /* line 22, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .logo img {
+      width: 110px;
+      margin-left: 20px;
+      margin-top: 6px; }
+    /* line 33, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+      /* line 38, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .menu .nav ul li {
+        list-style-type: none;
+        font-size: 18px;
+        margin-top: 5px;
+        letter-spacing: 2px;
+        cursor: pointer; }
+        /* line 45, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .menu .nav ul li a {
+          text-decoration: none;
+          color: white; }
+        /* line 50, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .menu .nav ul li i {
+          font-size: 18px;
+          color: #c5af74; }
+    /* line 61, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container {
+      margin-bottom: 3px;
+      margin-left: 52px; }
+    /* line 66, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container input {
+      border-radius: 20px;
+      background: #e2cea2;
+      width: 120px; }
+    /* line 73, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container button {
+      font-size: 15px;
+      float: right;
+      border-radius: 20px;
+      cursor: pointer;
+      background: #e2cea2;
+      margin-left: 6px; }
+    /* line 82, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container button:hover {
+      background: #c9970c; }
+  /* line 89, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .detailsNotify {
+    color: white;
+    background-color: #3d3d3d;
+    text-align: center;
+    margin-top: -20px; }
+  /* line 96, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .divi {
+    display: flex;
+    -webkit-box-flex-group: row;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    width: 100%; }
+    /* line 108, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container, .divi .container2 {
+      width: 50%; }
+      /* line 110, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .divi .container h2, .divi .container2 h2 {
+        text-align: center; }
+      /* line 113, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .divi .container .overlay, .divi .container .overlay2, .divi .container2 .overlay, .divi .container2 .overlay2 {
+        position: absolute;
+        bottom: 40%;
+        background-color: #4e4a3e;
+        overflow: hidden;
+        width: 50%;
+        height: 0;
+        transition: .9s ease;
+        margin-top: 40px; }
+        /* line 122, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .divi .container .overlay .text, .divi .container .overlay2 .text, .divi .container2 .overlay .text, .divi .container2 .overlay2 .text {
+          color: white;
+          font-size: 10px;
+          position: absolute;
+          text-align: justify;
+          left: 10%;
+          right: 10%;
+          top: 10%; }
+    /* line 136, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container img {
+      width: 50%;
+      margin: 10% 0% 20% 20%; }
+    /* line 141, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container .overlay {
+      left: 0; }
+    /* line 147, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container:hover .overlay {
+      bottom: 0;
+      height: 55%; }
+    /* line 152, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container2:hover .overlay2 {
+      bottom: 0;
+      height: 55%; }
+    /* line 158, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container2 img {
+      width: 80%;
+      margin: 0% 0% 0% 10%; }
+    /* line 162, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container2 .overlay2 {
+      right: 0; }
+  /* line 173, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .product1 {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3d3d3d;
+    font-family: "Oswald", sans-serif;
+    background: rgba(78, 72, 72, 0.2);
+    /*  10% opaque green */ }
+    /* line 186, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .product1 .productimage img {
+      width: 50%;
+      padding-left: 80px; }
+    /* line 192, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .product1 .product1text {
+      width: 90%;
+      text-align: center; }
+      /* line 195, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .product1text h3 {
+        color: #362c0a;
+        font-weight: 800; }
+        /* line 198, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .product1 .product1text h3 i {
+          color: red; }
+      /* line 202, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .product1text p {
+        color: #443c3c;
+        font-weight: 600; }
+    /* line 209, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .product1 .specs {
+      width: 350px;
+      background: rgba(31, 27, 27, 0.2);
+      border: 1px solid black;
+      margin-left: 12px; }
+      /* line 215, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .specs ul p {
+        font-weight: 900; }
+      /* line 218, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .specs ul li {
+        color: #a32525; }
+        /* line 220, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .product1 .specs ul li span {
+          font-weight: 800;
+          color: white; } }
+
+@media (min-width: 995px) {
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.2);
+    /*  10% opaque green */ }
+  /* line 8, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .detailsNotify {
+    color: white;
+    background-color: #3d3d3d;
+    text-align: center;
+    margin-top: -20px; }
+  /* line 16, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .divi {
+    display: flex;
+    -webkit-box-flex-group: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    width: 100%; }
+    /* line 27, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container, .divi .container2 {
+      width: 50%; }
+      /* line 29, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .divi .container h2, .divi .container2 h2 {
+        text-align: center; }
+      /* line 32, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .divi .container .overlay, .divi .container .overlay2, .divi .container2 .overlay, .divi .container2 .overlay2 {
+        position: absolute;
+        bottom: 40%;
+        background-color: #4e4a3e;
+        overflow: hidden;
+        width: 50%;
+        height: 0;
+        transition: .9s ease;
+        margin-top: 40px; }
+        /* line 41, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+        .divi .container .overlay .text, .divi .container .overlay2 .text, .divi .container2 .overlay .text, .divi .container2 .overlay2 .text {
+          color: white;
+          font-size: 15px;
+          position: absolute;
+          text-align: justify;
+          left: 10%;
+          right: 10%;
+          top: 10%; }
+    /* line 55, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container img {
+      width: 50%;
+      margin: 10% 0% 20% 20%; }
+    /* line 60, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container .overlay {
+      left: 0; }
+    /* line 66, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container:hover .overlay {
+      bottom: 0;
+      height: 70%; }
+    /* line 71, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container2:hover .overlay2 {
+      bottom: 0;
+      height: 70%; }
+    /* line 77, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container2 img {
+      width: 80%;
+      margin: 0% 0% 0% 10%; }
+    /* line 81, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container2 .overlay2 {
+      right: 0; }
+  /* line 89, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .productsheader {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 15px 50px;
+    margin: 20px 200px 20px 200px;
+    text-align: center;
+    font-family: "Oswald", sans-serif; }
+    /* line 97, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .productsheader h3 {
+      color: #d1c49b;
+      font-size: 20px; }
+  /* line 106, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .product1 {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3d3d3d;
+    font-family: "Oswald", sans-serif;
+    background: rgba(78, 72, 72, 0.2); }
+    /* line 119, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .product1 .productimage img {
+      width: 50%;
+      padding-left: 40px; }
+    /* line 125, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .product1 .product1text {
+      width: 90%;
+      text-align: justify; }
+      /* line 128, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .product1text h3 {
+        color: #362c0a;
+        font-weight: 800; }
+        /* line 131, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+        .product1 .product1text h3 i {
+          color: red; }
+      /* line 135, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .product1text p {
+        color: #443c3c;
+        font-weight: 600; }
+    /* line 142, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .product1 .specs {
+      width: 300px;
+      background: rgba(31, 27, 27, 0.2);
+      border: 1px solid black; }
+      /* line 147, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .specs ul p {
+        font-weight: 900; }
+      /* line 150, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .specs ul li {
+        color: #a32525; }
+        /* line 152, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+        .product1 .specs ul li span {
+          font-weight: 800;
+          color: white; } }
+
+/*# sourceMappingURL=details.css.map */

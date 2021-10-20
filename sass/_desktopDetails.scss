@@ -1,0 +1,173 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.2);    /*  10% opaque green */ 
+}
+
+// DETAILS NOTIFY
+.detailsNotify{
+    color: white;
+    background-color:rgb(61,61,61);
+    text-align: center;
+    margin-top:-20px;
+}
+
+// DETAILS CONTAINERS
+.divi{
+    display: flex;
+    -webkit-box-flex-group: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+
+    .container, .container2{
+        width: 50%;
+        h2{
+            text-align: center;
+        }
+        .overlay, .overlay2{
+            position: absolute;
+              bottom: 40%;
+              background-color: #4e4a3e;
+              overflow: hidden;
+              width: 50%;
+              height:0;
+              transition: .9s ease;
+              margin-top: 40px;
+              .text {
+                color: white;
+                font-size: 15px;
+                position: absolute;
+                text-align: justify;
+                left: 10%;
+                right: 10%;
+                top: 10%;
+              }
+        }
+    }
+
+     .container{
+        
+        img{
+            width: 50%;
+            margin: 10% 0% 20% 20%;
+        }
+       
+        .overlay { 
+              left: 0;
+            }
+
+     }
+
+     .container:hover .overlay {
+        bottom: 0;
+        height: 70%;
+      }
+
+      .container2:hover .overlay2 {
+        bottom: 0;
+        height: 70%;
+      }
+
+     .container2{
+     img{
+        width: 80%;
+        margin: 0% 0% 0% 10%;
+        }
+        .overlay2 {
+            right: 0;
+          }
+
+     }
+
+}
+
+.productsheader{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 15px 50px;
+    margin: 20px 200px 20px 200px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+
+    h3 {
+        color: #d1c49b;
+        font-size: 20px;
+      }
+}
+
+// PRODUCTS
+
+
+.product1{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(61,61,61);
+    font-family: "Oswald", sans-serif;
+    // opacity: 0.86;
+    background: rgba(78, 72, 72, 0.2);    
+
+    .productimage{
+        img{
+            width: 50%;
+            padding-left: 40px;
+        }
+    }
+
+    .product1text{
+        width: 90%;
+        text-align: justify;
+        h3{
+            color: #362c0a;
+            font-weight: 800;
+            i{
+                color:red;
+            }
+        }
+        p{
+            color: rgb(68, 60, 60);
+            font-weight: 600;
+            
+        }
+    }
+
+    .specs{
+        width: 300px;
+        background: rgba(31, 27, 27, 0.2);  
+        border: 1px solid black;
+        ul{
+            p{
+                font-weight: 900;
+            }
+            li{
+                color: rgb(163, 37, 37);
+                span{
+                    font-weight: 800;
+                    color:rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

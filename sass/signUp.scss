@@ -1,0 +1,7 @@
+@media (min-width: 995px) {
+    @import "desktopSignUp";
+  }
+
+  @media (max-width: 576px) {
+    @import "mobileSignUp";
+  }

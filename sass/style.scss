@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+  @import "mobile";
+  @import "mobileDetails";
+}
+
+// @media (max-width: 576px) {
+//   @import "mobileDetails";
+// }
+
+// // @media (min-width: 768px) {
+// //   @import "tablet";
+// // }
+
+// @media (min-width: 995px) {
+//   @import "desktop";
+// }
+
+@media (min-width: 995px) {
+  @import "desktop";
+  @import "desktopDetails";
+}
+
+
+ 

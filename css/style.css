@@ -1,0 +1,1475 @@
+@media (max-width: 576px) {
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  body {
+    height: auto;
+    font-family: 'Nova Square', cursive;
+    margin: 0px;
+    background-color: #adaaa2; }
+  /* line 12, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4e4a3e; }
+    /* line 22, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .menu .logo img {
+      width: 110px;
+      margin-left: 20px;
+      margin-top: 6px; }
+    /* line 33, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .menu .nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+      /* line 38, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .menu .nav ul li {
+        list-style-type: none;
+        font-size: 18px;
+        margin-top: 5px;
+        letter-spacing: 2px;
+        cursor: pointer; }
+        /* line 45, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .menu .nav ul li a {
+          text-decoration: none;
+          color: white; }
+        /* line 50, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .menu .nav ul li i {
+          font-size: 18px;
+          color: #c5af74; }
+    /* line 61, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .menu .search-container {
+      margin-bottom: 3px;
+      margin-left: 52px; }
+    /* line 66, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .menu .search-container input {
+      border-radius: 20px;
+      background: #e2cea2;
+      width: 120px; }
+    /* line 73, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .menu .search-container button {
+      font-size: 15px;
+      float: right;
+      border-radius: 20px;
+      cursor: pointer;
+      background: #e2cea2;
+      margin-left: 6px; }
+    /* line 82, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .menu .search-container button:hover {
+      background: #c9970c; }
+  /* line 89, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .fullImage {
+    height: 20vh;
+    background-image: url("../img/m4.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: 0px;
+    margin-top: 0px; }
+    /* line 97, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .fullImage .text {
+      text-align: center;
+      position: absolute;
+      top: 33%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      /* line 104, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .fullImage .text h1 {
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: 'Shadows Into Light', cursive;
+        color: white; }
+        /* line 111, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .fullImage .text h1 .fa-bomb, .fullImage .text h1 .fa-bolt {
+          color: red; }
+  /* line 120, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .selling {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 15px 50px;
+    margin: 20px 50px 0px 50px;
+    text-align: center; }
+    /* line 128, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .selling h3 {
+      color: #d1c49b;
+      font-size: 10px; }
+  /* line 136, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .article1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif;
+    width: 100%; }
+    /* line 143, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article1 img {
+      margin-left: 25%;
+      width: 50%; }
+    /* line 148, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article1 .model1 img {
+      transition: transform .25s ease; }
+    /* line 152, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article1 .model1 img:hover {
+      transform: scale(1.1); }
+    /* line 157, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article1 .notes {
+      text-align: center; }
+      /* line 159, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes h2 {
+        color: #444444; }
+      /* line 163, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes p {
+        font-size: 15px;
+        font-weight: 400; }
+      /* line 170, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes .restrictions p {
+        color: #a32d2d;
+        font-size: 14px;
+        font-weight: 800; }
+      /* line 176, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes .restrictions select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+      /* line 186, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes .barrel p {
+        color: #a32d2d;
+        font-size: 14px;
+        font-weight: 800; }
+      /* line 192, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes .barrel select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+      /* line 200, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes button {
+        margin-top: 20px;
+        height: 40px;
+        padding: 5px 10px 5px 10px;
+        font-family: "Nova Square", cursive;
+        background-color: #c5af74;
+        color: black;
+        font-weight: 600;
+        border-radius: 10px; }
+      /* line 211, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article1 .notes button:hover {
+        color: #ff0026; }
+  /* line 221, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .article2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "Oswald", sans-serif; }
+    /* line 228, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article2 .model2 img {
+      margin-left: 25%;
+      width: 50%; }
+    /* line 233, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article2 .model2 img {
+      transition: transform .25s ease; }
+    /* line 237, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article2 .model2 img:hover {
+      transform: scale(1.1); }
+    /* line 242, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article2 .notes {
+      text-align: center; }
+      /* line 245, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article2 .notes h2 {
+        color: #444444; }
+      /* line 249, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article2 .notes p {
+        font-size: 20px;
+        font-weight: 400; }
+      /* line 257, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article2 .notes .restrictions p {
+        color: #a32d2d;
+        font-size: 17px;
+        font-weight: 800; }
+      /* line 263, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article2 .notes .restrictions select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+      /* line 271, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article2 .notes .caliberBarrel {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px; }
+        /* line 276, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .article2 .notes .caliberBarrel .caliber p, .article2 .notes .caliberBarrel .barrel p, .article2 .notes .caliberBarrel .capacity p {
+          color: #a32d2d;
+          font-size: 17px;
+          font-weight: 800; }
+        /* line 282, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .article2 .notes .caliberBarrel .caliber select, .article2 .notes .caliberBarrel .barrel select, .article2 .notes .caliberBarrel .capacity select {
+          height: 30px;
+          color: #c5af74;
+          background-color: black;
+          width: 150px; }
+      /* line 290, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article2 .notes button {
+        margin-top: 3%;
+        height: 40px;
+        padding: 5px 10px 5px 10px;
+        font-family: "Nova Square", cursive;
+        background-color: #c5af74;
+        color: black;
+        font-weight: 600;
+        border-radius: 10px; }
+      /* line 301, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article2 .notes button:hover {
+        color: #ff0026; }
+  /* line 311, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .article3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif; }
+    /* line 318, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article3 .model3 img {
+      margin-left: 25%;
+      width: 50%; }
+    /* line 323, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article3 .model3 img {
+      transition: transform .25s ease; }
+    /* line 327, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article3 .model3 img:hover {
+      transform: scale(1.1); }
+    /* line 331, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article3 .notes {
+      text-align: center; }
+      /* line 334, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article3 .notes h2 {
+        color: #444444; }
+      /* line 338, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article3 .notes p {
+        font-size: 20px;
+        font-weight: 400; }
+      /* line 343, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article3 .notes .restrictions {
+        margin-top: 10%; }
+      /* line 347, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article3 .notes .restrictions p, .article3 .notes .optic p {
+        color: #a32d2d;
+        font-size: 17px;
+        font-weight: 800; }
+      /* line 353, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article3 .notes .restrictions select, .article3 .notes .optic select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+      /* line 360, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article3 .notes button {
+        margin-top: 3%;
+        height: 40px;
+        padding: 5px 10px 5px 10px;
+        font-family: "Nova Square", cursive;
+        background-color: #c5af74;
+        color: black;
+        font-weight: 600;
+        border-radius: 10px; }
+      /* line 371, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article3 .notes button:hover {
+        color: #ff0026; }
+  /* line 382, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .article4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif; }
+    /* line 389, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article4 .model4 img {
+      margin-left: 25%;
+      width: 50%; }
+    /* line 394, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article4 .model4 img {
+      transition: transform .25s ease; }
+    /* line 398, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article4 .model4 img:hover {
+      transform: scale(1.1); }
+    /* line 402, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .article4 .notes {
+      text-align: center; }
+      /* line 405, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article4 .notes h2 {
+        color: #444444; }
+      /* line 409, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article4 .notes p {
+        font-size: 20px;
+        font-weight: 400; }
+      /* line 413, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article4 .notes .restrictions {
+        margin-top: 10%; }
+        /* line 416, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .article4 .notes .restrictions p {
+          color: #a32d2d;
+          font-size: 17px;
+          font-weight: 800; }
+        /* line 422, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .article4 .notes .restrictions select {
+          height: 30px;
+          color: #c5af74;
+          background-color: black;
+          width: 150px; }
+      /* line 430, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article4 .notes .sightoptic {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px; }
+        /* line 435, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .article4 .notes .sightoptic .optic {
+          margin-left: 20px; }
+        /* line 439, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .article4 .notes .sightoptic .sight p, .article4 .notes .sightoptic .optic p {
+          color: #a32d2d;
+          font-size: 17px;
+          font-weight: 800; }
+        /* line 445, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .article4 .notes .sightoptic .sight select, .article4 .notes .sightoptic .optic select {
+          height: 30px;
+          color: #c5af74;
+          background-color: black;
+          width: 150px; }
+      /* line 453, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article4 .notes button {
+        margin-top: 3%;
+        height: 40px;
+        padding: 5px 10px 5px 10px;
+        font-family: "Nova Square", cursive;
+        background-color: #c5af74;
+        color: black;
+        font-weight: 600;
+        border-radius: 10px; }
+      /* line 464, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .article4 .notes button:hover {
+        color: #ff0026; }
+  /* line 472, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .teamsphotos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between; }
+  /* line 480, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .teamsphotos img {
+    width: 100%; }
+  /* line 484, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .blackborder {
+    width: 100%;
+    height: 15px;
+    margin-top: -5px;
+    background-color: #3d3d3d; }
+  /* line 493, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .map iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+    margin-top: -9px; }
+  /* line 501, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .signUp {
+    background-image: url("../img/pistol.jpg");
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "Oswald", sans-serif; }
+  /* line 513, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .signUp-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-style: italic;
+    font-size: 10px; }
+  /* line 524, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .signUp-text button {
+    border: 1px solid white;
+    outline: 0;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #c5af74;
+    background-color: #000000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px; }
+  /* line 536, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .signUp-text button:hover {
+    background-color: #555;
+    color: white; }
+  /* line 543, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .stores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif; }
+    /* line 551, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .stores div {
+      width: 100%;
+      height: auto;
+      box-shadow: -10px 10px 20px -5px #050505;
+      position: relative;
+      background-color: #d6d1c2; }
+      /* line 558, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .stores div span {
+        color: red;
+        font-weight: 500;
+        font-size: 20px; }
+      /* line 563, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .stores div p {
+        font-size: 15px;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 600; }
+      /* line 571, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .stores div ul li {
+        font-weight: 600; }
+        /* line 574, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .stores div ul li .stock {
+          color: green;
+          font-size: 15px; }
+      /* line 581, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .stores div h2 {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline; }
+      /* line 587, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .stores div button {
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        font-family: "Nova Square", cursive;
+        background-color: #c5af74;
+        color: black;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-left: 33%;
+        width: 40%; }
+        /* line 598, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .stores div button i {
+          color: green;
+          font-size: 15px; }
+      /* line 604, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .stores div button:hover {
+        background-color: #555;
+        color: white; }
+  /* line 612, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .stores img {
+    width: 100%; }
+  /* line 618, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%; }
+    /* line 625, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .footer .row1, .footer .row2, .footer .row3 {
+      display: flex;
+      flex-direction: row;
+      grid-column-start: 1;
+      grid-column-end: 13;
+      justify-content: center; }
+    /* line 634, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .footer .row1 {
+      align-items: center;
+      background-color: black;
+      height: 120px; }
+      /* line 638, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row1 .gunFinder {
+        margin-right: 10px; }
+      /* line 641, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row1 .gunFinder button, .footer .row1 .locateDealer button {
+        height: 20px;
+        padding: 5px 5px 20px 5px;
+        font-family: "Oswald", sans-serif;
+        background-color: #000000;
+        color: white;
+        font-weight: 600;
+        width: 150px;
+        font-size: 10px;
+        border: 1px solid white;
+        text-align: center; }
+      /* line 654, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row1 .gunFinder button:hover, .footer .row1 .locateDealer button:hover {
+        background-color: #555;
+        color: white; }
+      /* line 658, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row1 .locateDealer {
+        margin-left: 50px; }
+    /* line 664, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .footer .row2 {
+      background-color: #000000;
+      margin-top: -30px;
+      justify-content: space-between; }
+      /* line 670, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row2 .aboutUs ul {
+        margin-right: 20px; }
+      /* line 674, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row2 .logo img {
+        margin-top: 50px;
+        margin-right: 3px;
+        width: 30px; }
+      /* line 681, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row2 div h3 {
+        text-align: center;
+        color: #fd0000;
+        font-size: 10px;
+        padding-left: 30px; }
+      /* line 688, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row2 div ul li {
+        list-style: none;
+        font-size: 7px; }
+        /* line 691, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+        .footer .row2 div ul li a {
+          text-decoration: none;
+          color: white; }
+    /* line 704, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .footer .row3 {
+      background-color: black;
+      padding-top: 50px;
+      height: 60px; }
+      /* line 710, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row3 .socialmedias .fa-facebook {
+        background: #3B5998;
+        color: white; }
+      /* line 714, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row3 .socialmedias .fa-google {
+        background: #dd4b39;
+        color: white; }
+      /* line 718, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row3 .socialmedias .fa-linkedin {
+        background: #007bb5;
+        color: white; }
+      /* line 722, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row3 .socialmedias .fa-youtube {
+        background: #bb0000;
+        color: white; }
+      /* line 726, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row3 .socialmedias .fa-instagram {
+        background: #125688;
+        color: white; }
+      /* line 730, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row3 .socialmedias .fa {
+        padding: 10px;
+        font-size: 25px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none; }
+      /* line 738, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .footer .row3 .socialmedias a {
+        margin-left: 10px;
+        margin-right: 10px; }
+  /* line 748, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+  .notesFooter {
+    background-color: #3d3d3d;
+    text-align: center;
+    margin-top: -14px;
+    height: 12px; }
+    /* line 754, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+    .notesFooter h4 {
+      font-size: 8px;
+      color: #ffffff; }
+      /* line 757, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobile.scss */
+      .notesFooter h4 i {
+        color: #d1c49b; }
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  body {
+    height: auto;
+    font-family: 'Nova Square', cursive;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    /*  10% opaque green */ }
+  /* line 12, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4e4a3e; }
+    /* line 22, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .logo img {
+      width: 110px;
+      margin-left: 20px;
+      margin-top: 6px; }
+    /* line 33, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+      /* line 38, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .menu .nav ul li {
+        list-style-type: none;
+        font-size: 18px;
+        margin-top: 5px;
+        letter-spacing: 2px;
+        cursor: pointer; }
+        /* line 45, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .menu .nav ul li a {
+          text-decoration: none;
+          color: white; }
+        /* line 50, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .menu .nav ul li i {
+          font-size: 18px;
+          color: #c5af74; }
+    /* line 61, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container {
+      margin-bottom: 3px;
+      margin-left: 52px; }
+    /* line 66, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container input {
+      border-radius: 20px;
+      background: #e2cea2;
+      width: 120px; }
+    /* line 73, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container button {
+      font-size: 15px;
+      float: right;
+      border-radius: 20px;
+      cursor: pointer;
+      background: #e2cea2;
+      margin-left: 6px; }
+    /* line 82, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .menu .search-container button:hover {
+      background: #c9970c; }
+  /* line 89, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .detailsNotify {
+    color: white;
+    background-color: #3d3d3d;
+    text-align: center;
+    margin-top: -20px; }
+  /* line 96, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .divi {
+    display: flex;
+    -webkit-box-flex-group: row;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    width: 100%; }
+    /* line 108, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container, .divi .container2 {
+      width: 50%; }
+      /* line 110, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .divi .container h2, .divi .container2 h2 {
+        text-align: center; }
+      /* line 113, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .divi .container .overlay, .divi .container .overlay2, .divi .container2 .overlay, .divi .container2 .overlay2 {
+        position: absolute;
+        bottom: 40%;
+        background-color: #4e4a3e;
+        overflow: hidden;
+        width: 50%;
+        height: 0;
+        transition: .9s ease;
+        margin-top: 40px; }
+        /* line 122, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .divi .container .overlay .text, .divi .container .overlay2 .text, .divi .container2 .overlay .text, .divi .container2 .overlay2 .text {
+          color: white;
+          font-size: 10px;
+          position: absolute;
+          text-align: justify;
+          left: 10%;
+          right: 10%;
+          top: 10%; }
+    /* line 136, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container img {
+      width: 50%;
+      margin: 10% 0% 20% 20%; }
+    /* line 141, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container .overlay {
+      left: 0; }
+    /* line 147, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container:hover .overlay {
+      bottom: 0;
+      height: 55%; }
+    /* line 152, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container2:hover .overlay2 {
+      bottom: 0;
+      height: 55%; }
+    /* line 158, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container2 img {
+      width: 80%;
+      margin: 0% 0% 0% 10%; }
+    /* line 162, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .divi .container2 .overlay2 {
+      right: 0; }
+  /* line 173, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+  .product1 {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3d3d3d;
+    font-family: "Oswald", sans-serif;
+    background: rgba(78, 72, 72, 0.2);
+    /*  10% opaque green */ }
+    /* line 186, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .product1 .productimage img {
+      width: 50%;
+      padding-left: 80px; }
+    /* line 192, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .product1 .product1text {
+      width: 90%;
+      text-align: center; }
+      /* line 195, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .product1text h3 {
+        color: #362c0a;
+        font-weight: 800; }
+        /* line 198, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .product1 .product1text h3 i {
+          color: red; }
+      /* line 202, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .product1text p {
+        color: #443c3c;
+        font-weight: 600; }
+    /* line 209, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+    .product1 .specs {
+      width: 350px;
+      background: rgba(31, 27, 27, 0.2);
+      border: 1px solid black;
+      margin-left: 12px; }
+      /* line 215, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .specs ul p {
+        font-weight: 900; }
+      /* line 218, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+      .product1 .specs ul li {
+        color: #a32525; }
+        /* line 220, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileDetails.scss */
+        .product1 .specs ul li span {
+          font-weight: 800;
+          color: white; } }
+
+@media (min-width: 995px) {
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  body {
+    margin: 0;
+    font-family: "Nova Square", cursive;
+    background-color: #adaaa2; }
+  /* line 8, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #4e4a3e;
+    justify-content: space-between;
+    width: 100%; }
+    /* line 15, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .menu .logo img {
+      width: 130px;
+      margin-left: 10px;
+      margin-bottom: 5px; }
+    /* line 22, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .menu .nav ul {
+      display: flex;
+      flex-direction: row;
+      list-style: ho; }
+      /* line 25, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .menu .nav ul li {
+        list-style-type: none;
+        font-size: 18px;
+        width: 140px;
+        cursor: pointer; }
+        /* line 31, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+        .menu .nav ul li a {
+          text-decoration: none;
+          color: white; }
+        /* line 35, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+        .menu .nav ul li i {
+          font-size: 18px;
+          color: #c5af74; }
+    /* line 45, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .menu .search-container {
+      margin-right: 20px; }
+    /* line 49, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .menu .search-container input {
+      height: 22px;
+      border-radius: 20px;
+      background: #e2cea2;
+      width: 200px; }
+    /* line 56, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .menu .search-container button {
+      font-size: 19px;
+      float: right;
+      border-radius: 20px;
+      cursor: pointer;
+      background: #e2cea2;
+      margin-top: -1px; }
+    /* line 65, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .menu .search-container button:hover {
+      background: #c9970c; }
+  /* line 72, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .fullImage {
+    height: 80vh;
+    background-image: url("../img/m4.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: 0px;
+    margin-top: 0px; }
+    /* line 80, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .fullImage .text {
+      text-align: center;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      /* line 87, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .fullImage .text h1 {
+        font-size: 100px;
+        text-decoration: underline;
+        font-family: "Shadows Into Light", cursive;
+        color: white; }
+        /* line 93, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+        .fullImage .text h1 .fa-bomb, .fullImage .text h1 .fa-bolt {
+          color: red; }
+  /* line 102, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .selling {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 15px 50px;
+    margin: 20px 100px 20px 100px;
+    text-align: center; }
+    /* line 109, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .selling h3 {
+      color: #d1c49b;
+      font-size: 15px; }
+  /* line 116, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article1, .article2, .article3, .article4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif;
+    width: 100%; }
+    /* line 124, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article1 .vl, .article1 .v2, .article1 .v3, .article1 .v4, .article2 .vl, .article2 .v2, .article2 .v3, .article2 .v4, .article3 .vl, .article3 .v2, .article3 .v3, .article3 .v4, .article4 .vl, .article4 .v2, .article4 .v3, .article4 .v4 {
+      border-left: 3px solid #444444;
+      height: 400px;
+      position: absolute;
+      left: 50%;
+      margin-top: 50px; }
+  /* line 137, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article1 .model1 img {
+    margin-left: 30px;
+    width: 100%; }
+  /* line 142, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article1 .model1 img {
+    transition: transform .25s ease; }
+  /* line 146, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article1 .model1 img:hover {
+    transform: scale(1.16); }
+  /* line 151, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article1 .notes {
+    margin-right: 10%; }
+    /* line 154, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article1 .notes h2 {
+      color: #444444; }
+    /* line 158, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article1 .notes p {
+      font-size: 20px;
+      font-weight: 400; }
+    /* line 163, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article1 .notes .restrictions {
+      margin-top: 10%; }
+      /* line 165, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article1 .notes .restrictions p {
+        color: #a32d2d;
+        font-size: 17px;
+        font-weight: 800; }
+      /* line 171, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article1 .notes .restrictions select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+    /* line 179, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article1 .notes .barrel {
+      margin-top: 10%; }
+      /* line 181, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article1 .notes .barrel p {
+        color: #a32d2d;
+        font-size: 17px;
+        font-weight: 800; }
+      /* line 187, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article1 .notes .barrel select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+    /* line 195, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article1 .notes button {
+      margin-top: 3%;
+      height: 40px;
+      padding: 5px 10px 5px 10px;
+      font-family: "Nova Square", cursive;
+      background-color: #c5af74;
+      color: black;
+      font-weight: 600;
+      border-radius: 10px; }
+    /* line 206, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article1 .notes button:hover {
+      color: #ff0026; }
+  /* line 217, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article2 .model2 img {
+    margin-right: 50px; }
+  /* line 221, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article2 .model2 img {
+    transition: transform .25s ease; }
+  /* line 225, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article2 .model2 img:hover {
+    transform: scale(1.2); }
+  /* line 229, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article2 .notes {
+    margin-left: 60px; }
+    /* line 231, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article2 .notes h2 {
+      color: #444444; }
+    /* line 235, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article2 .notes p {
+      font-size: 20px;
+      font-weight: 400; }
+    /* line 243, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article2 .notes .restrictions p {
+      color: #a32d2d;
+      font-size: 17px;
+      font-weight: 800; }
+    /* line 249, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article2 .notes .restrictions select {
+      height: 30px;
+      color: #c5af74;
+      background-color: black;
+      width: 150px; }
+    /* line 257, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article2 .notes .caliberBarrel {
+      display: flex;
+      flex-direction: row;
+      margin-top: 15px; }
+      /* line 262, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article2 .notes .caliberBarrel .barrel, .article2 .notes .caliberBarrel .capacity {
+        margin-left: 20px; }
+      /* line 265, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article2 .notes .caliberBarrel .caliber p, .article2 .notes .caliberBarrel .barrel p, .article2 .notes .caliberBarrel .capacity p {
+        color: #a32d2d;
+        font-size: 17px;
+        font-weight: 800; }
+      /* line 271, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article2 .notes .caliberBarrel .caliber select, .article2 .notes .caliberBarrel .barrel select, .article2 .notes .caliberBarrel .capacity select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+    /* line 279, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article2 .notes button {
+      margin-top: 3%;
+      height: 40px;
+      padding: 5px 10px 5px 10px;
+      font-family: "Nova Square", cursive;
+      background-color: #c5af74;
+      color: black;
+      font-weight: 600;
+      border-radius: 10px; }
+    /* line 290, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article2 .notes button:hover {
+      color: #ff0026; }
+  /* line 296, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .hr {
+    display: none; }
+  /* line 304, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article3 .model3 img {
+    padding-left: 10%;
+    padding-right: 20%;
+    width: 100%; }
+  /* line 310, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article3 .model3 img {
+    transition: transform .25s ease; }
+  /* line 314, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article3 .model3 img:hover {
+    transform: scale(1.2); }
+  /* line 318, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article3 .notes {
+    margin-right: 13%; }
+    /* line 321, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article3 .notes h2 {
+      color: #444444; }
+    /* line 325, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article3 .notes p {
+      font-size: 20px;
+      font-weight: 400; }
+    /* line 330, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article3 .notes .restrictions {
+      margin-top: 10%; }
+    /* line 334, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article3 .notes .restrictions p, .article3 .notes .optic p {
+      color: #a32d2d;
+      font-size: 17px;
+      font-weight: 800; }
+    /* line 340, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article3 .notes .restrictions select, .article3 .notes .optic select {
+      height: 30px;
+      color: #c5af74;
+      background-color: black;
+      width: 150px; }
+    /* line 347, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article3 .notes button {
+      margin-top: 3%;
+      height: 40px;
+      padding: 5px 10px 5px 10px;
+      font-family: "Nova Square", cursive;
+      background-color: #c5af74;
+      color: black;
+      font-weight: 600;
+      border-radius: 10px; }
+    /* line 358, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article3 .notes button:hover {
+      color: #ff0026; }
+  /* line 370, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article4 .model4 img {
+    margin-right: 50px; }
+  /* line 374, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article4 .model4 img {
+    transition: transform .25s ease; }
+  /* line 378, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article4 .model4 img:hover {
+    transform: scale(1.2); }
+  /* line 382, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .article4 .notes {
+    margin-left: 60px; }
+    /* line 385, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article4 .notes h2 {
+      color: #444444; }
+    /* line 389, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article4 .notes p {
+      font-size: 20px;
+      font-weight: 400; }
+    /* line 393, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article4 .notes .restrictions {
+      margin-top: 10%; }
+      /* line 396, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article4 .notes .restrictions p {
+        color: #a32d2d;
+        font-size: 17px;
+        font-weight: 800; }
+      /* line 402, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article4 .notes .restrictions select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+    /* line 410, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article4 .notes .sightoptic {
+      display: flex;
+      flex-direction: row;
+      margin-top: 15px; }
+      /* line 415, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article4 .notes .sightoptic .optic {
+        margin-left: 20px; }
+      /* line 419, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article4 .notes .sightoptic .sight p, .article4 .notes .sightoptic .optic p {
+        color: #a32d2d;
+        font-size: 17px;
+        font-weight: 800; }
+      /* line 425, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .article4 .notes .sightoptic .sight select, .article4 .notes .sightoptic .optic select {
+        height: 30px;
+        color: #c5af74;
+        background-color: black;
+        width: 150px; }
+    /* line 433, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article4 .notes button {
+      margin-top: 3%;
+      height: 40px;
+      padding: 5px 10px 5px 10px;
+      font-family: "Nova Square", cursive;
+      background-color: #c5af74;
+      color: black;
+      font-weight: 600;
+      border-radius: 10px; }
+    /* line 444, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .article4 .notes button:hover {
+      color: #ff0026; }
+  /* line 452, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .teamsphotos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between; }
+  /* line 460, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .teamsphotos img {
+    width: 100%; }
+  /* line 464, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .blackborder {
+    width: 100%;
+    height: 30px;
+    margin-top: -5px;
+    background-color: #3d3d3d; }
+  /* line 471, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .blackborder1 {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #3d3d3d; }
+  /* line 480, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .map iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+    margin-top: -55px; }
+  /* line 489, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .signUp {
+    background-image: url("../img/pistol.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "Oswald", sans-serif; }
+  /* line 501, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .signUp-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-style: italic; }
+  /* line 511, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .signUp-text button {
+    border: 1px solid white;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #c5af74;
+    background-color: #000000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px; }
+    /* line 521, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .signUp-text button a {
+      text-decoration: none; }
+  /* line 526, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .signUp-text button:hover {
+    background-color: #555;
+    color: white; }
+  /* line 533, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .stores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    margin-top: 10px; }
+    /* line 542, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .stores div {
+      margin-right: 1%;
+      margin-left: 1%;
+      width: 32%;
+      height: auto;
+      box-shadow: -10px 10px 20px -5px #050505;
+      position: relative;
+      background-color: #d6d1c2; }
+      /* line 551, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .stores div span {
+        color: red;
+        font-weight: 500;
+        font-size: 20px; }
+      /* line 556, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .stores div p {
+        font-size: 15px;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 600; }
+      /* line 564, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .stores div ul li {
+        font-weight: 600; }
+        /* line 567, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+        .stores div ul li .stock {
+          color: green;
+          font-size: 15px; }
+      /* line 574, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .stores div h2 {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline; }
+      /* line 580, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .stores div button {
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        font-family: "Nova Square", cursive;
+        background-color: #c5af74;
+        color: black;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-left: 33%;
+        width: 40%; }
+        /* line 591, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+        .stores div button i {
+          color: green;
+          font-size: 18px; }
+      /* line 597, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .stores div button:hover {
+        background-color: #555;
+        color: white; }
+  /* line 605, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .stores img {
+    width: 100%; }
+  /* line 611, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%; }
+    /* line 618, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .footer .row1, .footer .row2, .footer .row3 {
+      display: flex;
+      flex-direction: row;
+      grid-column-start: 1;
+      grid-column-end: 13;
+      justify-content: center; }
+    /* line 627, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .footer .row1 {
+      align-items: center;
+      background-color: black;
+      height: 120px; }
+      /* line 631, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row1 .gunFinder {
+        margin-right: 30px; }
+      /* line 634, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row1 .gunFinder button, .footer .row1 .locateDealer button {
+        height: 30px;
+        padding: 5px 10px 28px 10px;
+        font-family: "Oswald", sans-serif;
+        background-color: #000000;
+        color: white;
+        font-weight: 600;
+        width: 150px;
+        font-size: 15px;
+        border: 1px solid white;
+        text-align: center; }
+      /* line 647, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row1 .gunFinder button:hover, .footer .row1 .locateDealer button:hover {
+        background-color: #555;
+        color: white; }
+      /* line 651, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row1 .locateDealer {
+        margin-left: 50px; }
+    /* line 657, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .footer .row2 {
+      background-color: #000000;
+      margin-top: -47px;
+      justify-content: space-between; }
+      /* line 661, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row2 .logo img {
+        margin-top: 40px;
+        margin-right: 30px; }
+      /* line 667, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row2 div h3 {
+        text-align: center;
+        color: #fd0000; }
+      /* line 672, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row2 div ul li {
+        list-style: none; }
+        /* line 675, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+        .footer .row2 div ul li a {
+          text-decoration: none;
+          color: white; }
+    /* line 687, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .footer .row3 {
+      background-color: black;
+      padding-top: 50px;
+      height: 60px; }
+      /* line 693, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row3 .socialmedias .fa-facebook {
+        background: #3B5998;
+        color: white; }
+      /* line 697, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row3 .socialmedias .fa-google {
+        background: #dd4b39;
+        color: white; }
+      /* line 701, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row3 .socialmedias .fa-linkedin {
+        background: #007bb5;
+        color: white; }
+      /* line 705, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row3 .socialmedias .fa-youtube {
+        background: #bb0000;
+        color: white; }
+      /* line 709, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row3 .socialmedias .fa-instagram {
+        background: #125688;
+        color: white; }
+      /* line 713, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row3 .socialmedias .fa {
+        padding: 5px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none; }
+      /* line 721, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .footer .row3 .socialmedias a {
+        margin-left: 30px;
+        margin-right: 30px; }
+  /* line 731, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+  .notesFooter {
+    background-color: #3d3d3d;
+    text-align: center;
+    height: 30px;
+    margin-top: -30px;
+    font-family: "Oswald", sans-serif; }
+    /* line 737, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+    .notesFooter h4 {
+      font-size: 20px;
+      color: #ffffff;
+      letter-spacing: 2px; }
+      /* line 741, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktop.scss */
+      .notesFooter h4 i {
+        color: #d1c49b; }
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.2);
+    /*  10% opaque green */ }
+  /* line 8, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .detailsNotify {
+    color: white;
+    background-color: #3d3d3d;
+    text-align: center;
+    margin-top: -20px; }
+  /* line 16, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .divi {
+    display: flex;
+    -webkit-box-flex-group: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    width: 100%; }
+    /* line 27, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container, .divi .container2 {
+      width: 50%; }
+      /* line 29, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .divi .container h2, .divi .container2 h2 {
+        text-align: center; }
+      /* line 32, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .divi .container .overlay, .divi .container .overlay2, .divi .container2 .overlay, .divi .container2 .overlay2 {
+        position: absolute;
+        bottom: 40%;
+        background-color: #4e4a3e;
+        overflow: hidden;
+        width: 50%;
+        height: 0;
+        transition: .9s ease;
+        margin-top: 40px; }
+        /* line 41, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+        .divi .container .overlay .text, .divi .container .overlay2 .text, .divi .container2 .overlay .text, .divi .container2 .overlay2 .text {
+          color: white;
+          font-size: 15px;
+          position: absolute;
+          text-align: justify;
+          left: 10%;
+          right: 10%;
+          top: 10%; }
+    /* line 55, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container img {
+      width: 50%;
+      margin: 10% 0% 20% 20%; }
+    /* line 60, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container .overlay {
+      left: 0; }
+    /* line 66, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container:hover .overlay {
+      bottom: 0;
+      height: 70%; }
+    /* line 71, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container2:hover .overlay2 {
+      bottom: 0;
+      height: 70%; }
+    /* line 77, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container2 img {
+      width: 80%;
+      margin: 0% 0% 0% 10%; }
+    /* line 81, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .divi .container2 .overlay2 {
+      right: 0; }
+  /* line 89, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .productsheader {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 15px 50px;
+    margin: 20px 200px 20px 200px;
+    text-align: center;
+    font-family: "Oswald", sans-serif; }
+    /* line 97, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .productsheader h3 {
+      color: #d1c49b;
+      font-size: 20px; }
+  /* line 106, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+  .product1 {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3d3d3d;
+    font-family: "Oswald", sans-serif;
+    background: rgba(78, 72, 72, 0.2); }
+    /* line 119, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .product1 .productimage img {
+      width: 50%;
+      padding-left: 40px; }
+    /* line 125, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .product1 .product1text {
+      width: 90%;
+      text-align: justify; }
+      /* line 128, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .product1text h3 {
+        color: #362c0a;
+        font-weight: 800; }
+        /* line 131, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+        .product1 .product1text h3 i {
+          color: red; }
+      /* line 135, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .product1text p {
+        color: #443c3c;
+        font-weight: 600; }
+    /* line 142, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+    .product1 .specs {
+      width: 300px;
+      background: rgba(31, 27, 27, 0.2);
+      border: 1px solid black; }
+      /* line 147, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .specs ul p {
+        font-weight: 900; }
+      /* line 150, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+      .product1 .specs ul li {
+        color: #a32525; }
+        /* line 152, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
+        .product1 .specs ul li span {
+          font-weight: 800;
+          color: white; } }
+
+/*# sourceMappingURL=style.css.map */

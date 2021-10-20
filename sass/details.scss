@@ -1,0 +1,7 @@
+@media (max-width: 576px) {
+    @import "mobileDetails";
+  }
+
+  @media (min-width: 995px) {
+    @import "desktopDetails";
+  }

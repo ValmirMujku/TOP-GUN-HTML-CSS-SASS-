@@ -1,0 +1,287 @@
+@media (min-width: 995px) {
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif; }
+  /* line 8, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+  .wallpaper {
+    height: 80vh;
+    background-image: url("../img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: 0px;
+    background-position: center;
+    margin-top: 0px;
+    border-bottom: 11px solid black; }
+  /* line 19, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+  .signup {
+    box-sizing: border-box;
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    margin: -100px 250px 0px 250px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 20px -5px black; }
+    /* line 31, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .signup img {
+      width: 290px; }
+    /* line 35, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .signup div {
+      margin-top: 30px;
+      width: 290px; }
+      /* line 38, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .signup div input {
+        width: 290px;
+        height: 38px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: -5px 10px 20px -5px black; }
+    /* line 47, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .signup .terms {
+      display: flex; }
+      /* line 49, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .signup .terms input {
+        margin-top: 25%;
+        width: 200px;
+        border: none;
+        box-shadow: none; }
+    /* line 56, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .signup .terms p {
+      text-align: justify;
+      font-size: 14px; }
+    /* line 61, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .signup .SignupButtoni button {
+      width: 140px;
+      height: 30px;
+      font-size: 15px;
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      margin: -20px 0px 30px 0px; }
+    /* line 70, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .signup .SignupButtoni button:hover {
+      background-color: #2ea842;
+      color: white; }
+  /* line 78, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+  .login {
+    display: flex;
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    background: rgba(78, 72, 72, 0.2);
+    border-radius: 10px;
+    margin: 40px 50px 0px 50px; }
+    /* line 89, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .login .loginMedia {
+      display: flex;
+      flex-direction: column;
+      width: auto; }
+      /* line 93, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia .fb {
+        background-color: #3b5998;
+        color: white; }
+      /* line 98, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia .twitter {
+        background-color: #55acee;
+        color: white; }
+      /* line 103, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia .google {
+        background-color: #dd4b39;
+        color: white; }
+      /* line 108, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia input,
+      .login .loginMedia .btn {
+        width: 120%;
+        padding: 15px;
+        border: none;
+        border-radius: 4px;
+        margin: 5px 0;
+        opacity: 0.85;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration: none; }
+      /* line 121, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia input:hover,
+      .login .loginMedia .btn:hover {
+        opacity: 1; }
+    /* line 127, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+    .login .loginMedia2 {
+      display: flex;
+      flex-direction: column;
+      width: auto; }
+      /* line 132, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia2 input {
+        width: 120%;
+        padding: 15px;
+        border: none;
+        border-radius: 4px;
+        margin: 5px 0;
+        opacity: 0.85;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration: none; }
+      /* line 145, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia2 input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        cursor: pointer;
+        width: 60%; }
+      /* line 152, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+      .login .loginMedia2 input[type=submit]:hover {
+        background-color: #000000; }
+  /* line 160, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+  .footer .row1 .gunFinder button {
+    width: 160px;
+    padding-top: 11px; }
+  /* line 165, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopSignUp.scss */
+  .footer .row1 .locateDealer button {
+    width: 160px;
+    padding-top: 11px; } }
+
+@media (max-width: 576px) {
+  /* line 1, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif; }
+  /* line 8, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+  .wallpaper {
+    height: 30vh;
+    background-image: url("../img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: 0px;
+    background-position: center;
+    margin-top: 0px;
+    width: 100%;
+    border-bottom: 11px solid black; }
+  /* line 21, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+  .signup {
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    box-shadow: -10px 10px 20px -5px black; }
+    /* line 34, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .signup img {
+      width: 290px; }
+    /* line 38, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .signup div {
+      margin-top: 30px;
+      width: 290px; }
+      /* line 41, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .signup div input {
+        width: 290px;
+        height: 38px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: -5px 10px 20px -5px black; }
+    /* line 50, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .signup .terms {
+      display: flex; }
+      /* line 52, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .signup .terms input {
+        margin-top: 25%;
+        width: 200px;
+        border: none;
+        box-shadow: none; }
+    /* line 59, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .signup .terms p {
+      text-align: justify;
+      font-size: 14px; }
+    /* line 64, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .signup .SignupButtoni button {
+      width: 140px;
+      height: 30px;
+      font-size: 15px;
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      margin: -20px 0px 30px 0px; }
+    /* line 73, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .signup .SignupButtoni button:hover {
+      background-color: #2ea842;
+      color: white; }
+  /* line 84, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+  .login {
+    display: flex;
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    font-family: "Oswald", sans-serif;
+    background: rgba(78, 72, 72, 0.2);
+    border-radius: 10px;
+    margin: 40px 50px 0px 50px; }
+    /* line 96, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .login .loginMedia {
+      display: flex;
+      flex-direction: column;
+      width: auto; }
+      /* line 100, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia .fb {
+        background-color: #3b5998;
+        color: white; }
+      /* line 105, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia .twitter {
+        background-color: #55acee;
+        color: white; }
+      /* line 110, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia .google {
+        background-color: #dd4b39;
+        color: white; }
+      /* line 115, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia input,
+      .login .loginMedia .btn {
+        width: 88%;
+        padding: 15px;
+        border: none;
+        border-radius: 4px;
+        margin: 5px 0;
+        opacity: 0.85;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration: none; }
+      /* line 128, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia input:hover,
+      .login .loginMedia .btn:hover {
+        opacity: 1; }
+    /* line 134, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+    .login .loginMedia2 {
+      display: flex;
+      flex-direction: column;
+      width: auto; }
+      /* line 139, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia2 input {
+        width: 88%;
+        padding: 15px;
+        border: none;
+        border-radius: 4px;
+        margin: 5px 0;
+        opacity: 0.85;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration: none; }
+      /* line 152, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia2 input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        cursor: pointer;
+        width: 60%; }
+      /* line 159, ../../../Desktop/HTML-CSS-SASS-Project/sass/_mobileSignUp.scss */
+      .login .loginMedia2 input[type=submit]:hover {
+        background-color: #000000; } }
+
+/*# sourceMappingURL=signUp.css.map */
