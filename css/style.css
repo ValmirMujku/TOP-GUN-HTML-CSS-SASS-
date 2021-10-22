@@ -1455,7 +1455,8 @@
       /* line 135, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
       .product1 .product1text p {
         color: #443c3c;
-        font-weight: 600; }
+        font-weight: 600;
+        margin-right: 10px; }
     /* line 142, ../../../Desktop/HTML-CSS-SASS-Project/sass/_desktopDetails.scss */
     .product1 .specs {
       width: 300px;
